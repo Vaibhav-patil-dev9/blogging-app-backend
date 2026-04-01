@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Bean;
 public class BlogAppApisApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Blogging app started successfully");
 		SpringApplication.run(BlogAppApisApplication.class, args);
 		
 	}
